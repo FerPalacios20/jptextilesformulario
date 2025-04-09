@@ -1,0 +1,53 @@
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(255, 230, 0);
+}
+
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+}
+
+form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 800px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-align: center;
+}
+
+form h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid green;
+    margin-bottom: 30px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
